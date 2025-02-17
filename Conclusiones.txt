@@ -1,0 +1,9 @@
+Flujo de pruebas CRUD de Usuario
+El flujo CRUD de usuario se logro realizar de manera agil y rapida, se implementaron plugin tanto de funcionalidad como visual lo que realizo una mejor experiencia
+los plugins son : Cucumber(gherkin),Extension Pack for java,karate runner,ope default browser(permitir abrir archivos html en informes directamente desde el codigo sin
+ tener que navegar por el explorador de archivos),material  icon theme (visualizer todos los iconos)
+tambien se realizo una configuraccion del plugin karate runner seleccionando Override Karate Runner dentro de settings lo cual lograba poder ejecutar el test sin comando
+desde el mismo feature lo que genero buen feedback durante la construccion.
+
+Recomendaciones:
+Actualizar el metodo PUT de la lista de APIS, parece que no actualiza los datos nuevos ingresados del usuario.
