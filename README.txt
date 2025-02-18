@@ -26,12 +26,7 @@ src/test/java//petstore             -Paquete donde están los runners y pruebas
 src/test/java//petstore/features    -Directorio donde se encuentran las definiciones de pruebas
 ¿Como ejecutar pruebas?
 Ejecutar Runners con comandos:
-mvn test -Dtest=CreateUserRunner- Ejecutar Runner se creacion de usuario
-mvn test -Dtest=SearchUserRunner - Ejecutar Busqueda del usuario creado
-mvn test -Dtest=UpdateUserRunner - Ejecutar actualizacion del usuario creado
-mvn test -Dtest=VerifyUserRunner - Ejecutar verificacion de actializacion del usuario
-mvn test -Dtest=DeleteUserRunner - Ejecutar actualizacion del usuario creado
-mvn test -Dtest=UserTestRunner - Ejecutar flujo completo
+mvn test   - Ejecutar flujo completo
 
 
 
